@@ -1,0 +1,27 @@
+.venv
+.env
+step-run
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+docker-compose.override.yml
+logs/
+.DS_Store
+
+./github/ .cache
+
+#docker cache
+docker/logs/
+docker/minio/
+docker/plugins/
+docker/postgres/
+
+#dbt cache
+banking_dbt/.dbt/
+banking_dbt/analyses/
+banking_dbt/tests/
+banking_dbt/seeds/
+banking_dbt/macros/
+banking_dbt/logs/
+banking_dbt/target/
