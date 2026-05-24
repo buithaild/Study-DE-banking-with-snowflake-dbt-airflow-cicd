@@ -4,7 +4,6 @@ from decimal import Decimal, ROUND_DOWN
 from faker import Faker
 import random
 import argparse
-import sys
 import os
 from pathlib import Path
 from dotenv import load_dotenv
